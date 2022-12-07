@@ -1,0 +1,174 @@
+
+
+body 
+{
+    font-family: 'Cairo', sans-serif;
+    font: 400 15px/28px Cairo;
+    letter-spacing: 0px;
+    background-color: #fff;
+    color: #677294;
+    padding: 0px;
+    margin: 0;
+}
+/* Header style */
+a
+{
+    text-decoration: none;
+}
+ul
+{
+    list-style: none;
+}
+ a {
+    font: 320  Cairo;
+    color: #677294;
+}
+button
+{
+    border: none;
+}
+/* start of the header */
+.header
+{
+    background-color: #1c335f;
+    padding-top: 14px;
+    align-items: center;
+}
+
+.First-Header-list li img
+{
+    width: 33px;
+    height: 31px;
+}
+.First-Header-list li
+{
+    display: inline-block;
+    padding-left: 10px;
+    font-weight: 450;
+    color: #fff;
+}
+a
+{
+    color: #c3c1da;
+    font-weight: 300;
+    padding-left: 5px;
+    transition: color 0.3s linear;
+    
+}
+ a :hover{
+    color: #1c335f;
+    /* transition-delay: 2s; */
+   
+}
+.First-Header-list li a img
+{
+    width: 15px;
+    height: 10px;
+    margin-right: 5px;
+}
+/* navSection */
+.navImg{
+    width: 215px;
+}
+/* startofherosection */
+.buttonHero
+{
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 45px;
+    line-height: 26px;
+    padding: 8px 27px;
+    display: inline-block;
+    background-color: #6facfa;
+    color: #fff;
+}
+.buttonHero2
+{
+    background-color: #f3af4e;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 45px;
+    line-height: 26px;
+    padding: 8px 27px;
+    display: inline-block;
+    color: #fff;
+
+}
+.carousel-inner img{
+    background-size: cover;
+}
+.card
+{
+    border-radius: 26px;
+    height: 190px;
+    margin-top: 12px;
+    
+}
+.cont{
+    transition:all  0.2s ease;
+    transform: scale(1.1);
+    
+}
+
+.icon
+{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: inline-block;
+    color: #fff;
+    font-size: 30px;
+    line-height: 66px;
+    margin-bottom: 15px;
+}
+
+.featurette-divider {
+    margin: 4rem 0;
+    justify-content: center;
+}
+.container2
+{
+    padding: 100px 50px;
+    justify-content: center;
+    align-items: center;
+}
+.circle
+{
+    width: 200px;
+    height: 200px;
+    border: 10px solid;
+    position: relative;
+    border-radius: 50%;
+
+}
+.circle .box ,
+.circle .box span
+
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: white;
+
+}
+.circle .box 
+{
+    height: 100%;
+    width: 100%;
+    transform: translate(-50% , -50%);
+    border-radius: 50%;
+
+}
+.circle .box span 
+{
+    transform: translate(-50% , -50%);
+    font-size: 25px;
+    font-weight: 600;
+}
+.text
+{
+    font-size: 20px;
+    font-weight: 500;
+    /* transform: translate(-150% , -50%); */
+
+}
